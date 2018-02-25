@@ -4,7 +4,7 @@ package Week_01;
 class MyThread extends Thread {
 
     public void run() {
-        System.out.println("running...");
+        System.out.println("running...new");
         System.out.println("running...243102");
     }
 
