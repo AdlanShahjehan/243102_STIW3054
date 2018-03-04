@@ -5,9 +5,12 @@
  */
 package com.mycompany.threada;
 
+import static java.lang.Thread.currentThread;
+
 public class MyThreads extends Threads {
     
         public void run() {
+            System.out.println(Thread.currentThread().getName());
         try {
             for (int x = 0; x <=10; x++) {
                 System.out.println(x);
